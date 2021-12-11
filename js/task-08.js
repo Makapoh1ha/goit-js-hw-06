@@ -10,4 +10,6 @@ function handleSubmit(event) {
     }
     console.log(`Email: ${email.value}, Password: ${password.value}`);
     event.currentTarget.reset();
+    const object = { email: email.value, password: password.value };
+    console.log(object);
 }

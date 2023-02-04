@@ -12,3 +12,4 @@ function onInputChange(event) {
         refs.nameLabel.textContent = event.currentTarget.value;
     }
 }
+h

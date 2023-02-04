@@ -15,3 +15,9 @@ const images = [
 const elGallery = document.querySelector('.gallery');
 const markup = images.map((image) => `<li><img src='${image.url}' alt="${image.alt}" width=320></li>`).join('');
 elGallery.insertAdjacentHTML('beforeEnd', markup);
+
+h
+
+// const elements = document.querySelector('.gallery');
+// const img = images.map((image) => `<li><img src='${image.url}'alt='${image.alt}' width = 320></li>`).join('');
+// elements.insertAdjacentHTML('beforeEnd', img);

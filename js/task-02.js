@@ -18,3 +18,7 @@ const elements = ingredients.map(item => {
 });
 console.log(elements);
 list.append(...elements);
+
+h
+
+

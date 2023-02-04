@@ -4,3 +4,4 @@ const handleInput = () => {
     inputTextRef.style.fontSize = `${inputRangeRef.value}px`;
 };
 inputRangeRef.addEventListener('input', handleInput);
+h
